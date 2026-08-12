@@ -225,7 +225,7 @@ Copy bảng terminal vào đây hoặc điền từ `artifacts/benchmark_results
 **Nhận xét ngắn:** Metric nào yếu nhất? Kết quả gợi ý vấn đề nằm ở retrieval
 hay generation?
 
-> *Câu trả lời:* Sau khi thêm policy-grounded guardrail behavior, pass rate đạt 100.0% và không còn failure type. Retrieval vẫn ổn định với Avg Context Recall 0.919 và Avg Context Precision 0.935. Các điểm còn thấp nhất nằm ở hard/medium policy cases như H03, H04 và M04; đây chủ yếu là vấn đề wording/completeness theo heuristic overlap, không phải lỗi retrieval nghiêm trọng.
+Sau khi thêm policy-grounded guardrail behavior, pass rate đạt 100.0% và không còn failure type. Retrieval vẫn ổn định với Avg Context Recall 0.919 và Avg Context Precision 0.935. Các điểm còn thấp nhất nằm ở hard/medium policy cases như H03, H04 và M04; đây chủ yếu là vấn đề wording/completeness theo heuristic overlap, không phải lỗi retrieval nghiêm trọng.
 
 ### Exercise 3.3 — LLM-as-a-Judge Rubric Design
 

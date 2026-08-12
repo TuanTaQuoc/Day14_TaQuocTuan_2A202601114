@@ -39,7 +39,7 @@ answer/context trace trong `artifacts/actual_answers.json` trước khi kết lu
 **Chẩn đoán tổng quan:** Vấn đề chính nằm ở retrieval, generation hay cả hai?
 Dùng ít nhất hai metrics để bảo vệ kết luận.
 
-> *Câu trả lời:* Sau guardrail fix, không còn failed cases. Retrieval vẫn tốt với Avg Context Recall = 0.919 và Avg Context Precision = 0.935. Vấn đề còn lại nghiêng về generation wording/completeness ở hard policy cases: H03, H04 và M04 pass nhưng vẫn là lowest overall, nên cần tiếp tục kiểm soát exception coverage.
+Sau guardrail fix, không còn failed cases. Retrieval vẫn tốt với Avg Context Recall = 0.919 và Avg Context Precision = 0.935. Vấn đề còn lại nghiêng về generation wording/completeness ở hard policy cases: H03, H04 và M04 pass nhưng vẫn là lowest overall, nên cần tiếp tục kiểm soát exception coverage.
 
 ---
 
